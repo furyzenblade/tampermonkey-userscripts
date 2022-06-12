@@ -16,6 +16,26 @@ function addButton(element) {
         if (last_played_video == null) return;
         window.open(last_played_video.url);
     }
+    // set text of button
+    dl_button.innerHTML = "Download";
+
+    // add css to dl_button
+    dl_button.style.cssText = "margin-left: 22px; background-color: #fff; border: 1px solid #000; padding: 5px;";
+    
+    dl_button.onmouseover = function() {
+        dl_button.style.backgroundColor = "#ddd";
+        if (last_played_video == null){
+            dl_button.style.cursor = "not-allowed";
+            dl_button.title = "No video loaded";
+        } else {
+            dl_button.style.cursor = "pointer";
+            dl_button.title = "Download last loaded video";
+        }
+    }
+    dl_button.onmouseout = function() {
+        dl_button.style.backgroundColor = "#fff";
+    }
+    
     element.appendChild(dl_button);
 }
 
@@ -34,7 +54,7 @@ var last_played_video = null;
 (function() {
     'use strict';
     console.log("Script loaded");
-
+    
     WaitForElement("._acus", function() {
         console.log("Element found");
         var top_bar = document.getElementsByClassName("_acus");
