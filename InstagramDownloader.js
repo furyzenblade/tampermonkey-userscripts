@@ -7,7 +7,41 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=instagram.com
 // @run-at       document-start
 // ==/UserScript==
-console.log("Script loaded");
+
+function addButton(element) {
+    var dl_button = document.createElement("button");
+    // on click
+    dl_button.onclick = function() {
+        //console.log("Button clicked");
+        if (last_played_video == null) return;
+        window.open(last_played_video.url);
+    }
+    element.appendChild(dl_button);
+}
+
+function WaitForElement(selector, callback) {
+    if (document.querySelector(selector)) {
+        callback();
+    } else {
+        setTimeout(function() {
+            WaitForElement(selector, callback);
+        }, 100);
+    }
+}
+
+var last_played_video = null;
+
+(function() {
+    'use strict';
+    console.log("Script loaded");
+
+    WaitForElement("._acus", function() {
+        console.log("Element found");
+        var top_bar = document.getElementsByClassName("_acus");
+        addButton(top_bar[0]);
+    });
+
+})();
 
 // intercept XMLHttpRequests
 (function(open) {
@@ -30,6 +64,7 @@ console.log("Script loaded");
             }
             */
             var hq_video = video_versions[0];
+            last_played_video = hq_video;
             console.log(`${hq_video.width}x${hq_video.height}: ${hq_video.url}`);
 
         });
