@@ -2,8 +2,9 @@
 // @name         Instagram Downloader
 // @version      0.1
 // @author       Fury Zenblade#1337
-// @description  toadd
+// @description  Adds a download button to download the last opened/clicked video
 // @match        http*://*.instagram.com/*
+// @license      MIT
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=instagram.com
 // @run-at       document-start
 // ==/UserScript==
