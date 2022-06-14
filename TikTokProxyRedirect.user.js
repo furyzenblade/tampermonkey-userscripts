@@ -11,19 +11,19 @@
 
 (function() {
     'use strict';
-    //get current URL
+    // get current URL
     var url = window.location.href;
 
     var video;
-    //check if argument exists
+    // check if argument exists
     if (url.indexOf("?") > -1) {
         video = url.substring(url.indexOf("video/") + "video/".length, url.indexOf("?"));
     } else {
-        //get everything after video/
+        // get everything after video/
         video = url.substring(url.indexOf("video/") + "video/".length);
     }
     var redirectLink = "https://proxitok.herokuapp.com/@placeholder/video/" + video;
 
-    //open redirectLink
+    // open redirectLink
     window.open(redirectLink);
 })();
