@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Instagram Downloader
-// @version      0.1
+// @version      0.2
+// @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/InstagramDownloader.user.js
 // @author       Fury Zenblade#1337
 // @description  Adds a download button to download the last opened/clicked video
 // @match        http*://*.instagram.com/*
@@ -23,7 +24,7 @@ function addButton(element) {
     }
 
     // add css to dl_button
-    dl_button.style.cssText = "margin-left: 22px; background-color: #fff; border: 1px solid #000; padding: 5px;";
+    dl_button.style.cssText = "margin-left: 22px; background-color: #fff; border: 1px solid #000; padding: 5px; border-radius: 3px;";
     
     dl_button.onmouseover = function() {
         dl_button.style.backgroundColor = "#ddd"; // change color on hover
@@ -62,7 +63,7 @@ function ReAddButton() {
 
 (function() {
     'use strict';
-    console.log("Script loaded");
+    //console.log("Script loaded");
     
     // wait until UI has loaded
     WaitForElement("._acus", function() {
