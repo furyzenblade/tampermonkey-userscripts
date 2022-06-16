@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Instagram Fullscreen
 // @version      0.1
+// @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/InstagramFullscreen.user.js
 // @description  Add full screen button
 // @author       Fury Zenblade#1337
 // @match        https://www.instagram.com/*
