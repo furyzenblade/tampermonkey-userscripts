@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Instagram Wide
-// @description  Make elements bigger
 // @version      0.1
 // @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/InstagramWide.user.js
+// @description  Make elements bigger
 // @author       Fury Zenblade#1337
 // @match        http*://www.instagram.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=instagram.com
