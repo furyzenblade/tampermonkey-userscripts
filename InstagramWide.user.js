@@ -29,9 +29,9 @@
     GM_addStyle("._a3gq ._aa6b { max-width: none !important }"); //width of post
     GM_addStyle("._a3gq ._aa6g { padding-top: 0px !important }"); // bottom padding
     GM_addStyle("._aacl._aaco._aacw._aacy._aad6 { background-color: rgb(var(--ig-secondary-background)) }"); // bottom line
-    GM_addStyle("._a3gq ._aa6b { padding: 0px !important }"); // top padding
     //GM_addStyle("._aa6e { max-width: 70% !important }"); // width of post
-    //GM_addStyle("._ab8w._ab94._ab99._ab9f._ab9m._ab9p._abc8 { display: none !important }"); // bottom bar (padding)
+    GM_addStyle("._a3gq ._aa6b { padding: 20px 10px !important }"); // half top padding
+    GM_addStyle("._a3gq ._abc8 { margin-top: calc(var(--base-unit) * 6) !important }"); // half bottom bar (padding)
 
     // fix logo color (dark mode)
     GM_addStyle(".sp_j88osDFh7lo_1_5x.sx_394de2 { filter: invert(1) }");
