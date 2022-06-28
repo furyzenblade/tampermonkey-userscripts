@@ -3,6 +3,7 @@
 // @version      0.1
 // @description  Redirect to a TikTok proxy for downloading purposes
 // @author       Fury Zenblade#1337
+// @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/TikTokProxyRedirect.user.js
 // @match        https://www.tiktok.com/*/video/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tiktok.com
 // @grant        none
