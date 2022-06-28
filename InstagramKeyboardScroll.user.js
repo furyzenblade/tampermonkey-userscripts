@@ -3,6 +3,7 @@
 // @version      0.1
 // @description  Hotkeys to scroll: W - Up, S - Down [on homepage scroll to next post on keypress
 // @author       Fury Zenblade#1337
+// @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/InstagramKeyboardScroll.user.js
 // @match        http*://www.instagram.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=instagram.com
 // @grant        none
