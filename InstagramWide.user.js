@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Instagram Wide
-// @version      0.1
+// @version      0.2
 // @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/InstagramWide.user.js
 // @description  Make elements bigger
 // @author       Fury Zenblade#1337
@@ -24,6 +24,9 @@
     // post view
     GM_addStyle("._aasw { background-color: rgb(0, 0, 0, 0.33) !important }"); // post comment section transparent
     GM_addStyle("._aasi { background-color: rgb(0, 0, 0, 0.33) !important }"); // post comment section user bar transparent
+    GM_addStyle("._a3gq ._aa61 { background: transparent !important }"); // search panel transparent
+    GM_addStyle("._a3gq ._aa5u { background: rgb(0, 0, 0, 0.75) !important }"); // *
+    GM_addStyle("._a3gq ._abm4:hover { background-color: rgb(14, 15, 15, 0.75) !important }"); // *
 
     // single post view
     GM_addStyle("._a3gq ._aa6b { max-width: none !important }"); //width of post
