@@ -2,6 +2,7 @@
 // @name         Instagram DMs
 // @description  Press Key 'K' on Keyboard to replace - Replace reels with videos (for no need to leave dms page)
 // @version      0.1
+// @updateURL    https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/InstagramDMs.user.js
 // @author       Fury Zenblade#1337
 // @match        https://www.instagram.com/direct/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=instagram.com
