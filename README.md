@@ -11,4 +11,4 @@
 - [Shorts Redirect](https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/YoutubeShortsRedirect.user.js) - View shorts just like a normal video
 
 ### Tiktok
-- [Proxy Redirect](https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/TikTokProxyRedirect.user.js) - Redirect videos to a tiktok proxy site (proxitok.herokuapp.com)
+- [Proxy Redirect](https://github.com/furyzenblade/tampermonkey-userscripts/raw/master/TikTokProxyRedirect.user.js) - Redirect videos to a tiktok proxy site (proxitok.herokuapp.com). To be used from the context menu
