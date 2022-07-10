@@ -36,6 +36,9 @@
     GM_addStyle("._a3gq ._aa6b { padding: 20px 10px !important }"); // half top padding
     GM_addStyle("._a3gq ._abc8 { margin-top: calc(var(--base-unit) * 6) !important }"); // half bottom bar (padding)
 
-    // fix logo color (dark mode)
-    GM_addStyle(".sp_j88osDFh7lo_1_5x.sx_394de2 { filter: invert(1) }");
+    GM_addStyle("._acup { filter: invert(1) }"); // white logo color (dark mode)
+    //GM_addStyle("._ab8w._ab94._ab99._ab9f._ab9m._ab9p._ab9y._aba8._abch._abck._abcl { filter: invert(1) }"); // dark reels icon
+
+    GM_addStyle("._a3gq ._acat { background-color: #2a2a2a !important; border: transparent !important; }"); // filled buttons
+    GM_addStyle("._a3gq ._abnd { background-color: #2a2a2a !important; border: transparent !important; }"); // filled buttons
 })();
